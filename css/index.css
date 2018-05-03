@@ -248,7 +248,7 @@ input::-webkit-input-placeholder
 	min-height:500px;
 	background:url(../images/cover.jpg) center no-repeat;
 	background-size:cover;
-	margin:20px 0;
+	margin:500px 0 0 0;
 }
 /*
 =================== Css Main content ===================
