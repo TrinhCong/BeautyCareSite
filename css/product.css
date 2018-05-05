@@ -1,0 +1,508 @@
+.main-order{
+    width: 1300px;
+    min-height: 1200px;
+     background: rgb(252, 247, 247);
+    margin: auto;
+}
+.main-order-information{
+    width: 100%;
+    height: 450px;
+    background: white;
+}
+.jss{position:relative;
+    margin:0 auto;
+    top:0px;
+    left:0px;
+    width:980px;
+    height:480px;
+    overflow:hidden
+    ;visibility:hidden
+    ;margin-top: 50px
+}
+.name-product{
+    width:100% ;
+    height: 120px;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 120px;
+}
+.name-product-many{
+    width:100% ;
+    height: 100px;
+    background: white;
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 100px;
+    color: pink;
+}
+.name-product-lc{
+    width: 100%;
+    height: 50px;
+    background: white;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name-product-lc2{
+    width: 100%;
+    height: 50px;
+    background: white;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+}
+.name-product-lc3{
+    width: 100%;
+    height: 50px;
+    background: white;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+}
+.name-product-sl{
+    width:100% ;
+    height: 40px;
+    background:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.name-product-buy{
+    width:100% ;
+    height: 50px;
+    background: white;
+    margin-top: 10px;
+}
+.main-order-information-box{
+    width: 50%;
+    height: 100%;
+    background: white;
+    float: left;
+}
+.main-order-information-text{
+    width: 28%;
+    height: 100%;
+    background: white;
+    float: left;
+    margin-left: 2%;
+}
+.main-order-information-delivery{
+    width: 20%;
+    height: 98%;
+    background: rgb(252, 247, 247);
+    float: left;
+}
+.name-product-sl-pick{
+    width: 100px;
+    height: 100%;
+}
+.giao-hang{
+    width: 100%;
+    height: 40px;
+    background: rgb(252, 247, 247);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    color: rgb(109, 107, 106);
+    border-bottom: 1px solid  rgb(218, 213, 210);
+}
+.giao-hang-nhanh{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+.giao-hang-nhanh-text{
+    width: 60%;
+    height: 50px;
+    background: rgb(252, 247, 247);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    color: rgb(116, 112, 110);
+    float: left;
+}
+.giao-hang-nhanh-gia{
+    width: 40%;
+    height: 100%;
+     background: rgb(252, 247, 247);
+    float: right;
+    font-size: 25px;
+    line-height: 50px;
+    color: pink;
+}
+.giao-hang-tieu-chuan{
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+     border-bottom: 1px solid  rgb(218, 213, 210);
+}
+.receive{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.doi-tra-bao-hanh{
+    width: 100%;
+    height: 40px;
+     background: rgb(252, 247, 247);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    color: rgb(109, 107, 106);
+}
+.tra-hang{
+    width: 100%;
+    height: 100px;
+     background: rgb(252, 247, 247);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    color: rgb(109, 107, 106);
+}
+.name-product-buy-button{
+    display: none;
+}
+.main-order-describe{
+    width: 100%;
+    height: 400px;
+    background: rgb(252, 247, 247);
+}
+.receive-text{
+    display: none;
+}
+.main-order-describe-review-1{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 17px;
+    background: #F2F2F2;
+}
+.main-order-describe-review-2{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #F2F2F2;
+    font-size: 14px;
+}
+.main-order-describe-review-3{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #F2F2F2;
+    font-size: 14px;
+    line-height: 30px;
+}
+.main-order-describe-review-4{
+    width: 100%;
+    height: 30px;
+    font-size: 17px;
+    line-height: 30px;
+}
+.main-order-describe-review-5{
+    width: 100%;
+    height: 200px;
+    background: yellowgreen;
+    margin-top: 10px;
+}
+.main-order-describe-review-5-left{
+    width: 50%;
+    height: 100%;
+    background: rgb(252, 247, 247);
+    float: left;
+}
+.main-order-describe-review-5-right{
+    width: 50%;
+    height: 100%;
+    background: rgb(252, 247, 247);
+    float: left;
+}
+.left-label{
+    width: 200px;
+    height: 30px;
+   background: rgb(252, 247, 247);
+   margin-left: 20px;
+}
+.main-order-tt{
+    width: 100%;
+    height: 50px;
+    background: rgb(252, 247, 247);
+    border-bottom:2px solid #F2F2F2;
+    border-top:2px solid  #F2F2F2;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.main-order-same{
+    width: 100%;
+    height: 250px;
+     background: rgb(252, 247, 247);
+}
+.main-order-same-list{
+    width: 15%;
+    height: 100%;
+    background: aliceblue;
+    float: left;
+    margin-left: 1.5%;
+}
+/* ipad xoay ngang*/
+@media all and (max-width: 1024px){
+    .main-order{
+       width: 1024px;
+}
+.name-product{
+    width:100% ;
+    height: 70px;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 70px;
+}
+.giao-hang-nhanh-gia{
+   
+    font-size: 20px;
+    line-height: 50px;
+}
+.main-order-same{
+    width: 100%;
+    height: 200px;
+}
+.giao-hang-nhanh-text{
+    font-size: 15px;
+}
+}
+/* ipad */
+@media all and (max-width: 768px){
+    .main-order{
+       width: 768px;
+       min-height: 1000px;
+}
+.name-product{
+    width:100% ;
+    height: 50px;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.giao-hang-nhanh-gia{
+   
+    font-size: 20px;
+    line-height: 50px;
+}
+.main-order-same{
+    width: 100%;
+    height: 200px;
+}
+.name-product-many{
+    font-size: 25px;
+}
+.name-product-sl{
+    font-size: 15px;
+}
+.name-product-lc{
+    display: none;
+}
+.name-product-lc2{
+    display: block;
+}
+.font-size-delivery{
+    font-size: 10px;
+}
+.giao-hang-nhanh-gia{
+    font-size: 15px;
+}
+.giao-hang-nhanh-text{
+    font-size: 10px;
+}
+.main-order-information{
+    width: 100%;
+    height: 370px;
+    background: white;
+}
+.receive{
+    font-size: 8px;
+}
+.giao-hang-nhanh{
+    margin-top: 10px;
+}
+.giao-hang-tieu-chuan{
+    margin-top: 10px;
+}
+.left-label{
+    width: 150px;
+    font-size: 15px;
+}
+.main-order-same{
+    width: 100%;
+    height: 150px;
+}
+}
+/* mobie */
+@media all and (max-width: 380px){
+.main-order{
+       width: 315px;
+       min-height: 1000px;
+}
+.name-product{
+    font-size: 7px;
+    height: 15px;
+    line-height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-order-information{
+    width: 100%;
+    height:350px;
+    background: white;
+}
+.name-product-many{
+    height: 15px;
+    line-height: 15px;
+    font-size: 12px;
+}
+.name-product-sl{
+    font-size: 7px;
+    height: 30px;
+}
+.name-product-sl-pick{
+    width: 60px;
+    height: 20px;
+}
+.name-product-lc2{
+   display: none;
+}
+.name-product-lc3{
+    display: block;
+    margin-top: 0px;
+    font-size: 9px;
+    height: 40px;
+
+}
+.name-product-buy{
+    margin-top: 0px;
+    height: 20px;
+    width: 70px;
+    font-size: 15px;
+    background: white;
+}
+.jss{
+    margin: 0px;
+}
+button.btn.btn-primary.btn-lg{
+   display: none;
+}
+.name-product-buy-button{
+    display: block;
+    width: 80%;
+    height: 60%;
+    font-size: 7px;
+    margin-top: 5%;
+    background: pink;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+}
+.name-product-buy-button a{
+    color: white;
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    width: 8px;
+    height: 8px;
+}
+.giao-hang{
+    height: 12px;
+    font-size: 7px;
+    line-height: 12px;
+}
+.giao-hang-nhanh{
+    width: 100%;
+    height: 30px;
+    font-size: 7px;
+    margin-top: 0px;
+}
+.giao-hang-nhanh-text{
+    width: 60%;
+    height: 30px;
+    font-size: 4px;
+    line-height: 10px;
+}
+.receive{
+    display: none;
+}
+.receive-text{
+    display: block;
+    font-size: 4px;
+}
+.giao-hang-nhanh-gia{
+    width: 40%;
+    height: 100%;
+    background: rgb(252, 247, 247);
+    float: right;
+    font-size: 6px;
+    color: pink;
+    line-height: 30px;
+}
+.giao-hang-tieu-chuan{
+    width: 100%;
+    height: 35px;
+    margin-top: 0px;
+}
+.doi-tra-bao-hanh{
+    height: 10px;
+    font-size: 6px;
+    line-height: 10px;
+}
+.tra-hang{
+    height: 20px;
+    font-size: 5px;
+    line-height: 10px;
+}
+.main-order-information{
+    height: 130px;
+}
+.main-order-describe-review-1{
+    height: 20px;
+    line-height: 20px;
+    font-size: 7px;
+}
+.main-order-describe-review-2{
+    font-size: 7px;
+     height: 25px;
+}
+.main-order-describe-review-3{
+    font-size: 7px;
+    height: 20px; 
+    line-height: 20px;
+}
+.main-order-describe-review-4{
+     font-size: 7px;
+    height: 20px; 
+    line-height: 20px;
+}
+.main-order-describe-review-5{
+    margin-top: 2px;
+}
+.left-label{
+    width: 50px;
+    height: 20px;
+    font-size: 6px;
+}
+.main-order-describe-review-5{
+    height: 150px;
+}
+.main-order-describe{
+    height: 230px;
+}
+.main-order-tt{
+   font-size: 7px;
+    height: 20px; 
+    line-height: 10px;
+}
+.main-order-same{
+    height: 60px;
+}
+.main-order{
+    min-height: 450px;
+}
+}
+
