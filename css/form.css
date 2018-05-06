@@ -6,13 +6,13 @@
 }
 .main-box{
   width: 600px;
-  height: 550px;
   background:rgba(43, 40, 40, 0.7);
   z-index: 2;
   position:absolute;
   margin-top: 100px;
   margin-left: 10%;
   left:16%;
+  padding-bottom: 50px;
 }
 .main-box1{
   width: 200px;
@@ -77,13 +77,35 @@
   border-radius: 40px 0px 40px 0px;
   border: 3px solid white;
   font-family: Arial, Helvetica, sans-serif;
-  
+  float: right;
+  margin-right: 10px;
 }
 .main-box-form-left-button:hover
 {
   background-color:pink;
   cursor:pointer;
 }
+.cancel-button{
+  display:block;
+  width:100px;
+  height: 40px;
+  color: white;
+  background: #97777d;
+  border-radius: 40px 0px 40px 0px;
+  border: 3px solid white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 36px;
+  float:right;
+}
+.cancel-button:hover
+{
+  background-color:rgb(46, 38, 40);
+  cursor:pointer;
+  text-decoration: none;
+  color:white !important;
+}
+
 .main-box-input
 {
    background:rgba(40, 40, 40,0.2);
@@ -156,31 +178,7 @@ div.background-header.fixed-top{
 
 
 
-
-#erroName{
+[id^='erro']
+{
   color: #f97a90;
-}
-#erroTelephone{
-  color: #f97a90;
-}
-#erroEmail{
-  color: #f97a90;
-}
-#erroAddress{
-  color: #f97a90;
-}
-#erroCode{
-  color: #f97a90;
-}
-#erroCard{
-  color: #f97a90;
-}
-.erroCard{
-  font-size: 13px;
-}
-#erroNumber{
-  color: #f97a90;
-}
-.erroNumber{
-  font-size: 13px;
 }
