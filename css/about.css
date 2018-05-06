@@ -1,167 +1,3 @@
-<<<<<<< HEAD:css/about.css
-
-	*{
-		margin:0px;
-    	padding:0px;
-    	box-sizing: border-box;
-    }
-    body{
-    	width: 100%;
-    	height: auto;
-    }
-    #phan2{
-    	width:100%;
-    	height:auto;
-        margin: auto;
-    }
-    #phan3{
-    	width:100%;
-    	height:800px;
-
-    }
-    #phan4{
-    	width:74%;
-    	height:20px;
-    	margin: auto;
-    }
-    #phan5{
-    	width:100%;
-    	height:auto;
-    }
-    #phan6{
-    	width:100%;
-    	height:auto;
-    	margin-top:150px; 
-    }
-    #img1{
-    	width: 100%;
-    	height: auto;
-    }
-	.img2 img {
-	    width: 100%;
-	    height: auto;
-	    margin: 0% 0 0 0%;
-	}
-
-	.text1 { 
-	    padding: 15px;
-	    text-align: center;
-	}
-	#text2{
-		width: 450px;
-		height: 406px;
-		color: #fff;
-		font-size:20px;
-		font-family: 'Allerta'; 
-		margin: 40px 0 0 40px;
-	}
-	#text3{
-		margin-top: -250px;
-	}
-	#text4{
-		margin-top: 50px;
-	}
-	#text5{
-		margin-top: -100px; 
-	}
-	.br{
-		width: 100%;
-		height: 150px;
-		background-color: #ffcccc;
-	}
-	#brtext{
-		width: 530px;
-    	height: 466px;
-    	background: linear-gradient(-280deg, #874da2, #c43a30);
-    	float:left;
-    	margin: auto;
-	}
-	#khung{
-		width: 80%
-		height:700px;
-		margin:550px 0 0 20px;
-	}
-	#bo2{width: 100%;
-		margin-top: 50px;}
-	#bo{margin: 0 0 0 20px;}
-	#lienhe{
-		width: 50%;
-		height: 400px;
-		background-color: #f2f2f2;
-		font-family: 'Didact Gothic';
-		font-size: 25px;
-		float: left;
-		background: linear-gradient(-0deg, #ffe6e6, #ffcccc);
-	}
-	#lienhe ul li{
-		margin: 30px 0 0 50px;
-		list-style: none;
-	}
-	.responsive {
-	    margin:40px 0 0 20px; 
-	    float: left;
-	    width: 22%;
-	    border:2px solid #ffb3b3;
-	}
-    #img3{
-    	width: 530px;
-    	height: 466px;
-    	float: left;
-    	margin: auto;
-    }
-	.images {
-		text-align: center;
-		margin-top: 50px;
-	}
-
-	.images img {
-		  cursor: pointer;
-		  display: inline-block;
-		  width: 330px;
-		  margin: 1em;
-		}
-
-    h1{
-    	text-align: center;
-    	font-family: 'Monoton';
-    	font-size: 50px;
-    	color: #ff4d4d;
-    }
-    #p1{
-    	text-align: center;
-    	font-size: 35px;
-    	color: #ff6666;
-    	margin-top: 20px;
-    }
-    #about{
-    	margin-top:-30px;
-    	color: #ffe6e6;
-    }
-	@media only screen and (max-width: 700px) {
-	    .responsive {
-	        width: 50%;
-	        margin: 1px 0;
-	    }
-	}
-
-	@media only screen and (max-width: 500px) {
-	    .responsive {
-	        width: 100%;
-	    }
-	}
-	@media only screen and (max-width: 700px) {
-	    .responsive2 {
-	        width: 50%;
-	        margin: 1px 0;
-	    }
-	}
-
-	@media only screen and (max-width: 500px) {
-	    .responsive2 {
-	        width: 100%;
-	    }
-	}
-=======
 
 *{
 	margin:0px;
@@ -209,6 +45,11 @@ body{
 .text1 { 
 	padding: 15px;
 	text-align: center;
+	font-size: 25px;
+	font-style: oblique;
+	font-weight: 300;
+	color: #ff6666;
+
 }
 #text2{
 	width: 450px;
@@ -229,7 +70,7 @@ body{
 }
 .br{
 	width: 100%;
-	height: 150px;
+	height: 100px;
 	background-color: #ffcccc;
 }
 #brtext{
@@ -245,13 +86,15 @@ body{
 	margin:550px 0 0 20px;
 }
 #bo2{
-	margin: auto;
+	margin-top: 50px;
 }
-#bo{
-	margin: 0 0 0 20px;
+#a13{
+	width: 100%;
+	height: 400px;
 }
+
 #lienhe{
-	width: 550px;
+	width: 560px;
 	height: 400px;
 	background-color: #f2f2f2;
 	font-family: 'Didact Gothic';
@@ -264,7 +107,7 @@ body{
 	list-style: none;
 }
 .responsive {
-	margin:40px 0 0 20px; 
+	margin:40px 0 0 25px; 
 	float: left;
 	width: 22%;
 	border:2px solid #ffb3b3;
@@ -281,11 +124,14 @@ body{
 }
 
 .images img {
-	 cursor: pointer;
-	 display: inline-block;
-	 width: 330px;
-	 margin: 1em;
+	cursor: pointer;
+	display: inline-block;
+	width: 330px;
+	margin: 1em;
 }
+.images img:hover{
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);}
 
 h1{
 	text-align: center;
@@ -303,28 +149,15 @@ h1{
 	margin-top:-30px;
 	color: #ffe6e6;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 400px) {
 	.responsive {
 	width: 50%;
-	margin: 1px 0;
 	}
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
 	.responsive {
 	width: 100%;
 	}
 }
-@media only screen and (max-width: 700px) {
-	.responsive2 {
-	width: 50%;
-	margin: 1px 0;
-	}
-}
 
-@media only screen and (max-width: 500px) {
-	.responsive2 {
-	width: 100%;
-	}
-}
->>>>>>> 17687715204ce3cc30ff3a913eddfc72841afffe:css/cssAbout.css
