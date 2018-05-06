@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form - SimPlon Beauty Care Center</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Trịnh Văn Công">
+
+    <!--small logo-->
+    <link rel="icon" href="images/icon.png" type="image/x-ico" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/web-fonts-with-css/css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+ 
+</head>
+
+<body>
+    <!--
+    =================== Header ===================
+    -->
+    <header>
+        <div class="background-header fixed-top"></div>
+        <!--
+            =================== form ===================
+            -->
+
+        <section class="main-box">
+            <aside class="main-box-form">
+                <section class="main-box-form-top">
+                    <p class="main-box-form-thank"> Thank you for your order, we will delivery soonest</p>
+                </section>
+                <form>
+                    <aside class="main-box-form-left">
+                        <span class="main-box-span">Name*</span> <span id="erroName"></span>
+                        <br>
+                        <input type="text" id="name" autofocus class="main-box-input">
+                        <br>
+                        <span class="main-box-span">Telephone*</span> <span id="erroTelephone"></span>
+                        <br>
+                        <input type="text" id="telephone" class="main-box-input">
+                        <br>
+                        <span class="main-box-span">Email*</span> <span id="erroEmail"></span>
+                        <br>
+                        <input type="text" id="email" class="main-box-input">
+                        <br>
+                        <span class="main-box-span">Address*</span> <span id="erroAddress"></span>
+                        <br> 
+                        <input type="text" id="address" class="main-box-input">
+                        <span class="main-box-span">Discount code*</span> <span id="erroCode"></span>
+                        <br>
+                        <input type="text" id="code" class="main-box-input">
+                        <button class="main-box-form-left-button" onclick="getInfo();return false">Pay</button>
+                    </aside>
+                    <aside class="main-box-form-right">
+                        <span class="main-box-span">Billing*</span> <span id="erroRadio"></span>
+                        <br>
+                        <input type="radio" class="main-box-radio" name="pick" id="hide" >
+                        <span class="main-box-span">Ship COD</span>
+                        <br>
+                        <input type="radio" class="main-box-radio" name="pick" id="show" >
+                        <span class="main-box-span">ATM</span>
+                        <aside class="main-box-atm">
+                            <span class="main-box-atm-text">The name of the cardholder</span> <span id="erroCard" class="erroCard"></span>
+                            <input type="text" id="card" autofocus class="main-box-input">
+                            <br>
+                            <span class="main-box-atm-text">Card number</span><br><span id="erroNumber" class="erroNumber" ></span>
+                            <input type="text" id="number" class="main-box-input">
+                            <br>
+                           
+                        </aside>
+                        
+                        <br>
+                    </aside>
+                </form>
+            </aside>
+        </section>
+        
+        <!--
+        =================== end form===================
+        -->
+        <nav class="navigation navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="#">
+                        <img src="images/logo.png" width="160" height="40">
+                    </a>
+                    <span>Beauty Care</span>
+                </div>
+                <div class="float-right">
+                    <button class="navbar-toggler toggler-btn" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse toggler-menu">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html#top">HOME<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html#top">ABOUT US</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="product.html#top" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    PRODUCT
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">HAIR</a>
+                                    <a class="dropdown-item" href="#">SKIN</a>
+                                    <a class="dropdown-item" href="#">MAKE-UP KITS</a>
+                                    <a class="dropdown-item" href="#">NAIL PAINTS</a>
+                                    <a class="dropdown-item" href="#">NAIL ARTS</a>
+                                    <a class="dropdown-item" href="#">JEWELLRY</a>
+                                    <a class="dropdown-item" href="#">WEDDING KITS</a>
+                                    <a class="dropdown-item" href="#">UPCOMING PRODUCTS</a>
+                                    <!-- <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">BLOG 3</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="product.html#top">FEEDBACK</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="contact">CONTACT US</a>
+                            </li>
+                            
+                        </ul>
+                        <form class="form-inline search-btn">
+                            <div class="input-group">
+                                <input type="search" placeholder="Search">
+                            </div>
+                        </form>
+                    </div>
+                </div><!--end of menu-->
+                <div class="social-icon">
+                    <a href="https://twitter.com/?lang=vi"><i class="icon fab fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/?hl=vi"><i class="icon fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/"><i class="icon fab fa-facebook-f" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </nav>
+        <!--end of navigation bar-->
+
+    </header>
+    <!--end of header-->
+    <aside class="main-content">
+        <img src="images/background.jpg" width="100%" height="100%">
+
+    </aside>
+    </section>
+    <!--
+    =================== footer ===================
+    -->
+
+    <footer>
+        <div class="container">
+            <div class="row foot-logo">
+                <img src="images/logo.png" width="170" height="30">
+                <span>|</span>
+                <span>Beauty Care</span>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 float-left copy-right">
+                    <span>SimPlon Copyrirht © 2018 TVC</span>
+                </div>
+                <div class="col-lg-6 float-right">
+                    <div class="social-icon">
+                        <a href="https://twitter.com/?lang=vi">
+                            <i class="icon fab fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com/?hl=vi">
+                            <i class="icon fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.facebook.com/LuanNam.BeautySalon/">
+                            <i class="icon fab fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <span class="page-mark fixed-bottom">
+        <a href="#top">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </a>
+    </span>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#about").click(function () {
+                $(location).attr("href", "index.html#top");
+                $("#main").load("about.html");
+            });
+            $("#product").click(function () {
+                $(location).attr("href", "index.html#top");
+                $("#main").load("product.html");
+            });
+             $("#hide").click(function () {
+                $(".main-box-atm").hide();
+            });
+            $("#show").click(function () {
+                $(".main-box-atm").show();
+            });
+        });
+    </script>
+    <script>
+        function getInfo() {
+            //name
+            var name=document.getElementById("name").value;
+            if(name==""){
+             document.getElementById("erroName").innerHTML="Enter name"
+            }else{
+             document.getElementById("erroName").innerHTML = ""
+            }
+            //telephone
+            var telephone = document.getElementById("telephone").value;
+            if (telephone == "") {
+                document.getElementById("erroTelephone").innerHTML = "Enter telephone"
+            } else {
+                document.getElementById("erroTelephone").innerHTML = ""
+            }
+            //email
+            var email = document.getElementById("email").value;
+            if (email == "") {
+                document.getElementById("erroEmail").innerHTML = "Enter Email"
+            } else {
+                document.getElementById("erroEmail").innerHTML = ""
+            }
+            //address
+            var address = document.getElementById("address").value;
+            if (address == "") {
+                document.getElementById("erroAddress").innerHTML = "Enter address"
+            } else {
+                document.getElementById("erroAddress").innerHTML = ""
+            }
+            //code
+            var code = document.getElementById("code").value;
+            if (code == "") {
+                document.getElementById("erroCode").innerHTML = "Enter code"
+            } else {
+                document.getElementById("erroCode").innerHTML = ""
+            }
+            //card
+             var card = document.getElementById("card").value;
+            if (card == "") {
+                document.getElementById("erroCard").innerHTML = "Enter name"
+            } else {
+                document.getElementById("erroCard").innerHTML = ""
+            }
+            //number
+            var number = document.getElementById("number").value;
+            if (number == "") {
+                document.getElementById("erroNumber").innerHTML = "Enter card number"
+            } else {
+                document.getElementById("erroNumber").innerHTML = ""
+            }
+            
+        }
+    </script>
+    
+</body>
+
+</html>
