@@ -63,8 +63,8 @@ jssor_1_slider_init = function () {
         }
     }
 
+    jssor_1_slider_init();
     ScaleSlider();
-
     $Jssor$.$AddEvent(window, "load", ScaleSlider);
     $Jssor$.$AddEvent(window, "resize", ScaleSlider);
     $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
