@@ -241,7 +241,7 @@ input::-webkit-input-placeholder
 .about-button:hover
 {
 	background:#f5a0e8;
-	color: yellow;
+	color: rgb(200, 229, 238);
 }
 .save
 {

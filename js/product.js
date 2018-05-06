@@ -1,3 +1,5 @@
+
+jssor_1_slider_init();
 jssor_1_slider_init = function () {
 
     var jssor_1_SlideshowTransitions = [
@@ -63,7 +65,6 @@ jssor_1_slider_init = function () {
         }
     }
 
-    jssor_1_slider_init();
     ScaleSlider();
     $Jssor$.$AddEvent(window, "load", ScaleSlider);
     $Jssor$.$AddEvent(window, "resize", ScaleSlider);
