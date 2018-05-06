@@ -36,10 +36,10 @@
                     <div class="collapse navbar-collapse toggler-menu">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="index.html#top">HOME<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="about">ABOUT US</a>
+                                <a class="nav-link" href="about.html#top">ABOUT US</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="product">PRODUCT</a>
@@ -217,7 +217,7 @@ In all that makeup counter madness it's easy to miss some of the brand's hero pr
                     <p class="emphasis">You Can save </p>
                     <p class="emphasis">up to 30%</p>
                     <p class="text">We are offering discounts to gratify customers who book an appointment. <br> Make a quick appointment with our specialists to save up to 30%</p>
-                    <a href="contact.html" class="btn btn-default about-button">Make an appointment</a>
+                    <a href="contact.html" class="btn btn-default about-button" style="width:200px;">Make an appointment</a>
                 </div>
             </div>
         </div>
@@ -249,27 +249,17 @@ In all that makeup counter madness it's easy to miss some of the brand's hero pr
         </div>
     </footer>
     <span class="page-mark fixed-bottom"><a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></span>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/google-map.js"></script>
+    <!-- <script src="js/google-map.js"></script> -->
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
-    </script>
-    <script>
-      $(document).ready(function(){
-        $("#about").click(function(){
-          $(location).attr("href","index.html#top");
-          $("#main").load("about.html");
-        });
-        $("#product").click(function(){
-          $(location).attr("href","index.html#top");
-          $("#main").load("product.html");
-        });
-      });
     </script>
 </body>
 </html>
