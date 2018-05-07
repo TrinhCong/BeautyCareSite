@@ -2,13 +2,13 @@
 
 .navbar
 {
-	height:90px;
+	height:55px;
 	z-index:3;
 	border-bottom:1px solid #ccc;
 }
 .background-header
 {
-	height:90px;
+	height:55px;
 	background:#F65275 ;
 	opacity:0.3;
 	z-index:2;
@@ -201,7 +201,7 @@ input::-webkit-input-placeholder
 .tip-content
 {
 	position:absolute;
-	top:200px;
+	top:110px;
 	left:50px;
 }
 .tip-title
@@ -241,14 +241,14 @@ input::-webkit-input-placeholder
 .about-button:hover
 {
 	background:#f5a0e8;
-	color: yellow;
+	color: rgb(200, 229, 238);
 }
 .save
 {
-	min-height:500px;
+	min-height:400px;
 	background:url(../images/cover.jpg) center no-repeat;
 	background-size:cover;
-	margin:500px 0 0 0;
+	margin:50px 0 0 0;
 }
 /*
 =================== Css Main content ===================
@@ -451,4 +451,12 @@ footer .social-icon a:hover
 {
 	font-family:Tahoma, Geneva, sans-serif;
 	color:#666;
+}
+.dropdown-menu
+{
+	background-color:rgba(246,82,117,0.5);
+}
+.carousel-inner
+{
+	height:500px;
 }

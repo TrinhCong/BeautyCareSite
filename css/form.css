@@ -6,12 +6,13 @@
 }
 .main-box{
   width: 600px;
-  height: 550px;
   background:rgba(43, 40, 40, 0.7);
   z-index: 2;
   position:absolute;
   margin-top: 100px;
   margin-left: 10%;
+  left:16%;
+  padding-bottom: 50px;
 }
 .main-box1{
   width: 200px;
@@ -38,7 +39,7 @@
   width: 65%;
   height: 90%;
   float: left;
-  border-right: 1px solid pink;
+  border-right: 1px solid #f97a90;
 }
 .main-box-form-right{
   width: 30%;
@@ -72,18 +73,46 @@
   width: 60%;
   height: 40px;
   color: white;
-  background: pink;
+  background: #f97a90;
   border-radius: 40px 0px 40px 0px;
   border: 3px solid white;
   font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  margin-right: 10px;
 }
+.main-box-form-left-button:hover
+{
+  background-color:pink;
+  cursor:pointer;
+}
+.cancel-button{
+  display:block;
+  width:100px;
+  height: 40px;
+  color: white;
+  background: #97777d;
+  border-radius: 40px 0px 40px 0px;
+  border: 3px solid white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 36px;
+  float:right;
+}
+.cancel-button:hover
+{
+  background-color:rgb(46, 38, 40);
+  cursor:pointer;
+  text-decoration: none;
+  color:white !important;
+}
+
 .main-box-input
 {
    background:rgba(40, 40, 40,0.2);
    width: 96%;
    border: none;
    color: white;
-   border-bottom: 1px solid pink;
+   border-bottom: 1px solid #f97a90;
    margin-bottom: 20px;
 }
 @media all and (max-width: 1024px){
@@ -112,7 +141,7 @@
   width: 60%;
   height: 15px;
   color: white;
-  background: pink;
+  background: #f97a90;
   border-radius: 10px 0px 10px 0px;
   border: 1px solid white;
   font-family: Arial, Helvetica, sans-serif;
@@ -149,31 +178,7 @@ div.background-header.fixed-top{
 
 
 
-
-#erroName{
-  color: pink;
-}
-#erroTelephone{
-  color: pink;
-}
-#erroEmail{
-  color: pink;
-}
-#erroAddress{
-  color: pink;
-}
-#erroCode{
-  color: pink;
-}
-#erroCard{
-  color: pink;
-}
-.erroCard{
-  font-size: 13px;
-}
-#erroNumber{
-  color: pink;
-}
-.erroNumber{
-  font-size: 13px;
+[id^='erro']
+{
+  color: #f97a90;
 }
