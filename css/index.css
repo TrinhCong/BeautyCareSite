@@ -366,6 +366,7 @@ footer .social-icon a:hover
 	text-align:center;
 	font-size:24px;
 	padding:5px 10px;
+	box-shadow:0 0 10px #666;
 	marin-bottom:10px;
 }
 .page-mark:hover
@@ -459,4 +460,8 @@ footer .social-icon a:hover
 .carousel-inner
 {
 	height:500px;
+}
+.fixed-bottom
+{
+	left:unset;
 }
