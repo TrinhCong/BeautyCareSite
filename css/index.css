@@ -4,7 +4,7 @@
 {
 	height:55px;
 	z-index:3;
-	border-bottom:1px solid #ccc;
+	border-bottom:1px solid rgb(224, 148, 148);
 }
 .background-header
 {
@@ -51,7 +51,7 @@ header a
 }
 header a:hover
 {
-	color:#eb6bd7 !important;
+	color:#f97a90 !important;
 }
 .dropdown-item:hover
 {
@@ -102,14 +102,14 @@ input[type=search]
 input[type=search]:focus
 {
 	background-color: #fff;
-	border-color: #eb6bd7;
+	border-color: #f97a90;
 	width: 130px;
 	color: #000;
 	background-color: #fff;
 	cursor: auto;
-	-webkit-box-shadow: 0 0 5px #eb6bd7;
-	-moz-box-shadow: 0 0 5px #eb6bd7;
-	box-shadow: 0 0 5px #eb6bd7;
+	-webkit-box-shadow: 0 0 5px #f97a90;
+	-moz-box-shadow: 0 0 5px #f97a90;
+	box-shadow: 0 0 5px #f97a90;
 }
 input:-moz-placeholder 
 {
@@ -130,7 +130,7 @@ input::-webkit-input-placeholder
 }
 .toggler-btn
 {
-	box-shadow:0 0 5px #eb6bd7;
+	box-shadow:0 0 5px #f97a90;
 }
 
 @media(max-width:1091px)
@@ -155,14 +155,15 @@ input::-webkit-input-placeholder
 	.toggler-menu
 	{
 		position:absolute;
-		top:50px;
+		top:4px;
 		right:0px;
 	}
 	header nav .social-icon
 	{
-		position:absolute;
+		/* position:absolute;
 		top:69px;
-		left:40px;
+		left:40px; */
+		display:none;
 	}
 }
 
@@ -208,7 +209,7 @@ input::-webkit-input-placeholder
 {
 	font-size:36px;
 	font-family:"serif";
-	color:#eb6bd7;
+	color:#f97a90;
 	font-weight:bold;
 	font-style:italic;
 	margin-top:10px;
@@ -234,14 +235,14 @@ input::-webkit-input-placeholder
 	width:140px;
 	height:40px;
 	margin:10px 0;
-	background:#eb6bd7;
+	background:#f97a90;
 	font-weight:bold;
 	color: white;
 }
 .about-button:hover
 {
-	background:#f5a0e8;
-	color: rgb(200, 229, 238);
+	background:pink;
+	color: rgb(238, 238, 238);
 }
 .save
 {
@@ -302,7 +303,7 @@ input::-webkit-input-placeholder
 }
 .contact
 {
-	background:#eb6bd7;
+	background:#f97a90;
 	color:white;
 	min-height:120px;
 }
@@ -361,13 +362,13 @@ footer .social-icon a:hover
 {
 	width:50px;
 	height:50px;
-	background:#eb6bd7;
+	background:#f97a90;
 	border-radius:25px;
 	text-align:center;
 	font-size:24px;
 	padding:5px 10px;
 	box-shadow:0 0 10px #666;
-	marin-bottom:10px;
+	margin-bottom:10px;
 }
 .page-mark:hover
 {
@@ -393,7 +394,7 @@ footer .social-icon a:hover
 	width:100px;
 	height:100px;
 	border-radius:50px;
-	background:#eb6bd7;
+	background:#f97a90;
 	color:white;
 	line-height:96px;
 	text-align:center;
@@ -445,7 +446,7 @@ footer .social-icon a:hover
 {
 	font-size: 30px;
     line-height: 1.4em;
-	color:#eb6bd7;
+	color:#f97a90;
 	padding-left:15px;
 }
 .service-list
@@ -459,9 +460,16 @@ footer .social-icon a:hover
 }
 .carousel-inner
 {
-	height:500px;
+	max-height:500px;
 }
 .fixed-bottom
 {
 	left:unset;
+}
+@media(max-width:720px)
+{
+	.tip-content
+	{
+		display: none;
+	}
 }
