@@ -70,10 +70,10 @@
 .list-like-text{
     width: 30%;
     height: 20%;
-     background: white;
-     line-height: 50px;
-     margin: auto;
-     border-bottom: 2px solid lightslategray;
+    background: white;
+    line-height: 50px;
+    margin: auto;
+    border-bottom: 2px solid lightslategray;
 }
 .list-like-product{
      width: 100%;
@@ -177,12 +177,38 @@ background: black;
 
 .show {display:block;}
 .list-nextPage-next {
-    border: none;
-    outline: none;
-    padding: 8px 14px;
-    background-color: #f1f1f1;
+    padding: 7px 14px;
+    background-color: #f3bbbb;
     cursor: pointer;
     font-size: 18px;
+    border-radius: 20px;
+    border-color: #666;
+}
+.actives, .list-nextPage-next:hover {
+    background-color: rgb(255, 160, 160);
+    color: white;
+}
+.btn-next {
+    background-color: #f3bbbb;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0px 100px 100px 0px;
+    border-color: #666;
+}
+.actives, .btn-next:hover {
+    background-color: rgb(255, 160, 160);
+    color: white;
+}
+.btn-prev {
+    background-color: #f3bbbb;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius:  100px 0px 0px 100px ;
+    border-color: #666;
+}
+.actives, .btn-prev:hover {
+    background-color: rgb(255, 160, 160);
+    color: white;
 }
 .list-like-product{
      width: 100%;
@@ -403,10 +429,7 @@ ul.dropdown-menu.show
 }
  
 /* Style the active class, and buttons on mouse-over */
-.actives, .list-nextPage-next:hover {
-    background-color: #666;
-    color: white;
-}
+
 
  .jssorl-009-spin img {
             animation-name: jssorl-009-spin;

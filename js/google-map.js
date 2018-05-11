@@ -1,9 +1,9 @@
-var gmap = new google.maps.LatLng(20.8524365,106.7131188);
+var gmap = new google.maps.LatLng(21.0019643,105.8181819,17);
 var marker;
 function initialize()
 {
     var mapProp = {
-         center:new google.maps.LatLng(20.8524365,106.7131188),
+         center:new google.maps.LatLng(21.0019643,105.8181819,17),
          zoom:16,
         mapTypeId:google.maps.MapTypeId.ROADMAP
     };
