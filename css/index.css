@@ -166,39 +166,7 @@ input::-webkit-input-placeholder
 		display:none;
 	}
 }
-@media(max-width:720px)
-{
-	header
-	{
-		position:relative;
-	}
-	.navigation, .toggler-menu
-	{
-		background:#333;
-		opacity:0.9;
-		border-radius:0 0 0 30px;
-		padding:0 10px 10px 10px;
-	}
-	.toggler-btn
-	{
-		position:absolute;
-		top:0px;
-		right:0px;
-	}
-	.toggler-menu
-	{
-		position:absolute;
-		top:50px;
-		right:0px;
-	}
-	header nav .social-icon
-	{
-		/* position:absolute;
-		top:69px;
-		left:40px; */
-		display:none;
-	}
-}
+
 
 
 /*slideshow*/
@@ -312,14 +280,36 @@ input::-webkit-input-placeholder
 {
 	margin:50px 0 !important;
 }
-.main .package
+.main .package1
 {
-	background:url(../images/long-straight-hairstyles-for-women.jpg) center no-repeat;
+	background:url(../images/makeup-kit/80.jpg) center no-repeat;
 	height:555px;
 	padding-top:125px;
 }
-.main .package .emphasis2,
-.main .package  .text2
+.main .package1 .emphasis2,
+.main .package1  .text2
+{
+	color:white;
+}
+.main .package2
+{
+	background:url(../images/makeup-kit/81.jpg) center no-repeat;
+	height:555px;
+	padding-top:125px;
+}
+.main .package2 .emphasis2,
+.main .package2  .text2
+{
+	color:white;
+}
+.main .package3
+{
+	background:url(../images/makeup-kit/82.jpg) center no-repeat;
+	height:555px;
+	padding-top:125px;
+}
+.main .package3 .emphasis2,
+.main .package3  .text2
 {
 	color:white;
 }
