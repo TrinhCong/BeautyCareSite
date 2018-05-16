@@ -166,7 +166,39 @@ input::-webkit-input-placeholder
 		display:none;
 	}
 }
-
+@media(max-width:720px)
+{
+	header
+	{
+		position:relative;
+	}
+	.navigation, .toggler-menu
+	{
+		background:#333;
+		opacity:0.9;
+		border-radius:0 0 0 30px;
+		padding:0 10px 10px 10px;
+	}
+	.toggler-btn
+	{
+		position:absolute;
+		top:0px;
+		right:0px;
+	}
+	.toggler-menu
+	{
+		position:absolute;
+		top:50px;
+		right:0px;
+	}
+	header nav .social-icon
+	{
+		/* position:absolute;
+		top:69px;
+		left:40px; */
+		display:none;
+	}
+}
 
 
 /*slideshow*/

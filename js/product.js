@@ -20,7 +20,13 @@ jQuery(document).ready(function ($) {
 		}
 			
 	});
-
+    $(".small-image img").click(function () {
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+        var imgSrc=$(this).attr("src");
+        $(".big-image img").attr("src", imgSrc);
+        
+    });
 	//slider
 	var jssor_1_options = {
 		$AutoPlay: 1,
