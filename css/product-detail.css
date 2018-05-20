@@ -61,7 +61,7 @@
 .btn-quantity
 {
     width:42px;
-    height:34px;
+    height:37px;
     border-radius: 8px;
     border:1px solid rgb(78, 63, 63);
     background: #f97a90;
@@ -662,4 +662,8 @@ input[type=checkbox], input[type=radio] {
     font-size: 24px;
     color:rgb(196, 111, 252);
     margin-top:20px;
+}
+.small-image
+{
+    margin-top:10px;
 }

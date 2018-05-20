@@ -27,7 +27,7 @@
     <header>
         <div class="background-header fixed-top"></div>
         <nav class="navigation navbar navbar-expand-lg navbar-dark fixed-top">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="navbar-brand">
                     <a href="#">
                         <img src="images/logo.png" width="160" height="40">
@@ -43,35 +43,49 @@
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
                                 <a class="nav-link" href="index.html#top">
-                                    HOME
+                                    home
                                     <span class="sr-only">(current)</span>
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    PRODUCT
+                                    products
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="products.html#top">ALL PRODUCTS</a>
-                                    <a class="dropdown-item" href="products.html#top">HAIR</a>
-                                    <a class="dropdown-item" href="products.html#top">SKIN</a>
-                                    <a class="dropdown-item" href="makeup-kit.html#top">MAKE-UP KITS</a>
-                                    <a class="dropdown-item" href="nail.html#top">NAIL</a>
-                                    <a class="dropdown-item" href="jewelry.html#top">JEWELRY</a>
-                                    <a class="dropdown-item" href="makeup-kit.html#top">WEDDING KITS</a>
-                                    <a class="dropdown-item" href="products.html#top">UPCOMING PRODUCTS</a>
+                                    <a class="dropdown-item" href="products.html#top">all products</a>
+                                    <a class="dropdown-item" href="sale.html#top">products on sale</a>
+                                    <a class="dropdown-item" href="products.html#top">hair</a>
+                                    <a class="dropdown-item" href="products.html#top">skin</a>
+                                    <a class="dropdown-item" href="makeup-kit.html#top">make-up kits</a>
+                                    <a class="dropdown-item" href="nail.html#top">nail</a>
+                                    <a class="dropdown-item" href="jewelry.html#top">jewelery</a>
+                                    <a class="dropdown-item" href="makeup-kit.html#top">wedding kits</a>
+                                    <a class="dropdown-item" href="products.html#top">upcoming products</a>
                                     <!-- <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">BLOG 3</a> -->
+                            <a class="dropdown-item" href="#">BLOG 3</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    services
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="services.html#top">nail</a>
+                                    <a class="dropdown-item" href="services.html#top">hair</a>
+                                    <a class="dropdown-item" href="services.html#top">skin</a>
+                                    <a class="dropdown-item" href="services.html#top">make-up</a>
+                                    <!-- <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">BLOG 3</a> -->
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="feedback.html#top">FEEDBACK</a>
+                                <a class="nav-link" href="feedback.html#top">feedback</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html#top">ABOUT US</a>
+                                <a class="nav-link" href="about.html#top">about us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html#top">CONTACT US</a>
+                                <a class="nav-link" href="contact.html#top">contact us</a>
                             </li>
                         </ul>
                         <form class="form-inline search-btn">
@@ -165,16 +179,16 @@
         <div class="row">
             <div class="col-md-5">
                 <a class="col-md-12 big-image " data-fancybox="gallery" href="images/product/p1.jpg">
-                    <img class="col-md-12"  src="images/product/p1.jpg" />
+                    <img class="col-md-12" src="images/product/p1.jpg" />
                 </a>
                 <a class="col-md-12 d-none" data-fancybox="gallery" href="images/product/p2.jpg"></a>
                 <a class="col-md-12 d-none" data-fancybox="gallery" href="images/product/p3.jpg"></a>
                 <a class="col-md-12 d-none" data-fancybox="gallery" href="images/product/p4.jpg"></a>
                 <div class="small-image col-md-12">
-                    <img class="col-md-3" src="images/product/p1.jpg"   />
-                    <img class="col-md-3" src="images/product/p2.jpg"  />
-                    <img class="col-md-3" src="images/product/p3.jpg"   />
-                    <img class="col-md-2" src="images/product/p4.jpg"   />
+                    <img class="col-md-3" src="images/product/p1.jpg" />
+                    <img class="col-md-3" src="images/product/p2.jpg" />
+                    <img class="col-md-3" src="images/product/p3.jpg" />
+                    <img class="col-md-2" src="images/product/p4.jpg" />
                 </div>
             </div>
 
@@ -193,27 +207,28 @@
         <div class="row">
             <div class="col-md-5" style="padding-top:20px;">
                 <table class="col-md-12">
-                    <tr class="name-product-sl">
+                    <tr class="name-product-lc">
                         <td>Quantity:</td>
                         <td>
                             <span>
-                                <button class="btn btn-default btn-quantity" id="plus">
-                                    <i class="fas fa-plus"></i>
-                                </button>&nbsp;
-                                <input type="number" step=1 id="Quantity" class="text-center" style="width:70px;" value=0 />&nbsp;
                                 <button class="btn btn-default btn-quantity" id="minus">
                                     <i class="fas fa-minus"></i>
+                                </button>&nbsp;
+                                <input type="number" step=1 id="Quantity" class="text-center" style="width:70px;" value=0 />&nbsp;
+
+                                <button class="btn btn-default btn-quantity" id="plus">
+                                    <i class="fas fa-plus"></i>
                                 </button>
                             </span>
                         </td>
                     </tr>
-                    <tr class="name-product-sl">
+                    <tr class="name-product-lc">
                         <td>price:</td>
                         <td>
                             <span id="price" class="name-product-many">1200.00</span> $
                         </td>
                     </tr>
-                    <tr class="name-product-sl">
+                    <tr class="name-product-lc">
                         <td>Total:</td>
                         <td>
                             <span id="total" class="name-product-many">0.00</span> $
@@ -263,7 +278,7 @@
             </div>
         </div>
 
-        <section class="list-like row text-center row">
+        <section class="row text-center">
             <section class="list-like-text">
                 <p style="text-align: center;font-size: 20px">
                     Related Products
@@ -330,17 +345,15 @@
     =================== Banner ===================
     -->
     <div class="save">
-        <div class="row">
-            <div class="col-lg-12 text-center wow wobble" style="margin-top:20px;">
-                <p class="tip-title">Let's Come With Us!</p>
-                <p class="emphasis">You Can save </p>
-                <p class="emphasis">up to 30%</p>
-                <p class="text">
-                    We are offering discounts to gratify customers who book an appointment.
-                    <br> Make a quick appointment with our specialists to save up to 30%
-                </p>
-                <a href="contact.html" class="btn btn-default about-button" style="width:200px;">Make an appointment</a>
-            </div>
+        <div class="col-lg-12 text-center wow wobble" style="margin-top:20px;">
+            <p class="tip-title">Let's Come With Us!</p>
+            <p class="emphasis">You Can save </p>
+            <p class="emphasis">up to 30%</p>
+            <p class="text">
+                We are offering discounts to gratify customers who book an appointment.
+                <br> Make a quick appointment with our specialists to save up to 30%
+            </p>
+            <a href="contact.html" class="btn btn-default about-button" style="width:200px;">Make an appointment</a>
         </div>
     </div>
     <!--end of banner-->
@@ -375,7 +388,7 @@
             </div>
         </div>
     </footer>
-    <span class="page-mark fixed-bottom">
+    <span class="page-mark fixed-bottom d-none">
         <a href="#top">
             <i class="fa fa-arrow-up" aria-hidden="true"></i>
         </a>
@@ -384,25 +397,15 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-    <script src="js/jssor.slider-27.1.0.min.js" type="text/javascript"></script>
     <script src="/js/product-detail.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/jssor.slider-27.1.0.min.js"></script>
-    <script src="js/product.js"></script>
     <script src="js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-        $(document).ready(function () {
-            $("a[href='#top']").click(function () {
-                $("html, body").animate({ scrollTop: 400 }, "slow");
-                return false;
-            });
-        });
-    </script>
+    <script src="js/index.js"></script>
+    <script src="js/product.js"></script>
 </body>
 
 </html>

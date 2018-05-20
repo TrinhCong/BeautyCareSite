@@ -245,9 +245,17 @@ input {
 */
 .emphasis2 {
     font-weight: 800;
-    color: black;
     font-size: 50px;
     margin-top: -30px;
+    text-shadow: 0 0 5px #FF3;
+    color: white;
+}
+.emphasis3 {
+    font-weight: 800;
+    font-size: 50px;
+    margin-top: -30px;
+    color: #009669;
+    font-style:italic;
 }
 
 .text2 {
@@ -375,7 +383,8 @@ footer .social-icon a {
     font-size: 24px;
     padding: 5px 10px;
     box-shadow: 0 0 10px #666;
-    margin-bottom: 10px;
+    margin:0 10px 10px 0;
+    
 }
 
     .page-mark:hover {
@@ -429,14 +438,14 @@ footer .social-icon a {
 .fancybox img {
     margin-bottom: 30px;
     -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-    -webkit-transition: all 0.5s ease;
+    transform: scale(1);
+    -webkit-transition: all 0.4s ease;
     transition: all 0.5s ease;
 }
 
 .fancybox:hover img {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
     border-radius: 10%;
     box-shadow: 0 10px 6px -6px grey;
 }
@@ -498,4 +507,33 @@ footer .social-icon a {
     border-radius: 20px 20px 0 0;
     border-bottom: 2px solid #ffe29c;
     margin-bottom:20px;
+    font-style:italic;
+    color: #666;
+}
+
+#phan6 {
+    margin-top: 40px;
+}
+#bo2 {
+    margin-top: 5px;
+}
+#lienhe {
+    background-color: #f2f2f2;
+    font-family: 'Didact Gothic';
+    font-size: 25px;
+    background: linear-gradient(-0deg, #ffe6e6, #ffcccc);
+    margin-top:30px;
+    padding-bottom:20px;
+}
+#p1 {
+    text-align: center;
+    font-size: 35px;
+    color: #ff6666;
+    margin-top: 20px;
+}
+
+nav a
+{
+    text-transform:capitalize;
+    font-size:18px;
 }

@@ -24,7 +24,7 @@
     <header>
         <div class="background-header fixed-top"></div>
         <nav class="navigation navbar navbar-expand-lg navbar-dark fixed-top">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="navbar-brand">
                     <a href="#">
                         <img src="images/logo.png" width="160" height="40">
@@ -40,35 +40,49 @@
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
                                 <a class="nav-link" href="index.html#top">
-                                    HOME
+                                    home
                                     <span class="sr-only">(current)</span>
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    PRODUCT
+                                    products
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="products.html#top">ALL PRODUCTS</a>
-                                    <a class="dropdown-item" href="products.html#top">HAIR</a>
-                                    <a class="dropdown-item" href="products.html#top">SKIN</a>
-                                    <a class="dropdown-item" href="makeup-kit.html#top">MAKE-UP KITS</a>
-                                    <a class="dropdown-item" href="nail.html#top">NAIL</a>
-                                    <a class="dropdown-item" href="jewelry.html#top">JEWELRY</a>
-                                    <a class="dropdown-item" href="makeup-kit.html#top">WEDDING KITS</a>
-                                    <a class="dropdown-item" href="products.html#top">UPCOMING PRODUCTS</a>
+                                    <a class="dropdown-item" href="products.html#top">all products</a>
+                                    <a class="dropdown-item" href="sale.html#top">products on sale</a>
+                                    <a class="dropdown-item" href="products.html#top">hair</a>
+                                    <a class="dropdown-item" href="products.html#top">skin</a>
+                                    <a class="dropdown-item" href="makeup-kit.html#top">make-up kits</a>
+                                    <a class="dropdown-item" href="nail.html#top">nail</a>
+                                    <a class="dropdown-item" href="jewelry.html#top">jewelery</a>
+                                    <a class="dropdown-item" href="makeup-kit.html#top">wedding kits</a>
+                                    <a class="dropdown-item" href="products.html#top">upcoming products</a>
                                     <!-- <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">BLOG 3</a> -->
+                            <a class="dropdown-item" href="#">BLOG 3</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    services
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="services.html#top">nail</a>
+                                    <a class="dropdown-item" href="services.html#top">hair</a>
+                                    <a class="dropdown-item" href="services.html#top">skin</a>
+                                    <a class="dropdown-item" href="services.html#top">make-up</a>
+                                    <!-- <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">BLOG 3</a> -->
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="feedback.html#top">FEEDBACK</a>
+                                <a class="nav-link" href="feedback.html#top">feedback</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html#top">ABOUT US</a>
+                                <a class="nav-link" href="about.html#top">about us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html#top">CONTACT US</a>
+                                <a class="nav-link" href="contact.html#top">contact us</a>
                             </li>
                         </ul>
                         <form class="form-inline search-btn">
@@ -158,11 +172,11 @@
     <section class="main container">
         <div id="top"></div>
 
-        <div class="row">
-            <div class="col-md-6 offset-md-3">
+        <div class="row" id="lienhe">
+            <div class="col-md-6">
                 <form id="contactForm" action="" method="POST" role="form">
                     <div class="col-md-12" id="form_title">
-                        <h2>Contact Form</h2>
+                        <h2>Contact us</h2>
                     </div>
                     <div class="col-md-12">
                         <div class="form-group">
@@ -191,6 +205,16 @@
                         <button class="btn btn-default about-button" style="margin:20px 0;">Send Message</button>
                     </div>
                 </form>
+            </div>
+            <div  class="col-md-6">
+                <p class="tip-title">Contact infomation</p>
+                <p id="p1">SIMPLON’s Beauty care</p>
+                <ul>
+                    <li>Address: 19 Nguyen Trai - Thanh Xuan - Hanoi</li>
+                    <li>Hotline:0123456789</li>
+                    <li>Email: something@aptech.vn</li>
+                    <li>Fanpage: facebook.com/Simplonbeautycare</li>
+                </ul>
             </div>
         </div>
         <div class="row">
@@ -269,7 +293,7 @@
             </div>
         </div>
     </footer>
-    <span class="page-mark fixed-bottom"><a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></span>
+    <span class="page-mark fixed-bottom d-none"><a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></span>
 
 
     <!-- Optional JavaScript -->
@@ -278,14 +302,6 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-        $(document).ready(function () {
-            $("a[href='#top']").click(function () {
-                $("html, body").animate({ scrollTop: 400 }, "slow");
-                return false;
-            });
-        });
-    </script>
+    <script src="js/index.js"></script>
 </body>
 </html>

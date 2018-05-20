@@ -567,13 +567,21 @@ ul.dropdown-menu.show {
         pointer-events: none;
     }
 
-.p-title {
+/*.p-title {
     font-weight: bold;
     color: #009669;
     text-transform: capitalize;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     margin-top: 15px;
+}*/
+.p-title {
+    font-size: 24px;
+    font-family: "serif";
+    color: #f97a90;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
 }
 
     .p-title:hover {

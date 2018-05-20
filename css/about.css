@@ -27,11 +27,7 @@ body{
 	width:100%;
 	height:auto;
 }
-#phan6{
-	width:100%;
-	height:auto;
-	margin-top:150px; 
-}
+
 #img1{
 	width: 100%;
 	height: auto;
@@ -85,23 +81,13 @@ body{
 	height:700px;
 	margin:550px 0 0 20px;
 }
-#bo2{
-	margin-top: 50px;
-}
+
 #a13{
 	width: 100%;
 	height: 400px;
 }
 
-#lienhe{
-	width: 560px;
-	height: 400px;
-	background-color: #f2f2f2;
-	font-family: 'Didact Gothic';
-	font-size: 25px;
-	float: left;
-	background: linear-gradient(-0deg, #ffe6e6, #ffcccc);
-}
+
 #lienhe ul li{
 	margin: 30px 0 0 50px;
 	list-style: none;
@@ -139,12 +125,7 @@ h1{
 	font-size: 50px;
 	color: #ff4d4d;
 }
-#p1{
-	text-align: center;
-	font-size: 35px;
-	color: #ff6666;
-	margin-top: 20px;
-}
+
 #about{
 	margin-top:-30px;
 	color: #ffe6e6;

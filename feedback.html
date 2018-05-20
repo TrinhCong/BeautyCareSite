@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
 <head>
@@ -60,7 +60,7 @@
         =================== end form===================
         -->
         <nav class="navigation navbar navbar-expand-lg navbar-dark fixed-top">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="navbar-brand">
                     <a href="#">
                         <img src="images/logo.png" width="160" height="40">
@@ -69,41 +69,56 @@
                 </div>
                 <div class="float-right">
                     <button class="navbar-toggler toggler-btn" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                            aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse toggler-menu">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="index.html#top">HOME
+                                <a class="nav-link" href="index.html#top">
+                                    home
                                     <span class="sr-only">(current)</span>
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    PRODUCT
+                                    products
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="products.html#top">ALL PRODUCTS</a>
-                                    <a class="dropdown-item" href="products.html#top">HAIR</a>
-                                    <a class="dropdown-item" href="products.html#top">SKIN</a>
-                                    <a class="dropdown-item" href="makeup-kit.html#top">MAKE-UP KITS</a>
-                                    <a class="dropdown-item" href="nail.html#top">NAIL</a>
-                                    <a class="dropdown-item" href="jewelry.html#top">JEWELRY</a>
-                                    <a class="dropdown-item" href="makeup-kit.html#top">WEDDING KITS</a>
-                                    <a class="dropdown-item" href="products.html#top">UPCOMING PRODUCTS</a>
+                                    <a class="dropdown-item" href="products.html#top">all products</a>
+                                    <a class="dropdown-item" href="sale.html#top">products on sale</a>
+                                    <a class="dropdown-item" href="products.html#top">hair</a>
+                                    <a class="dropdown-item" href="products.html#top">skin</a>
+                                    <a class="dropdown-item" href="makeup-kit.html#top">make-up kits</a>
+                                    <a class="dropdown-item" href="nail.html#top">nail</a>
+                                    <a class="dropdown-item" href="jewelry.html#top">jewelery</a>
+                                    <a class="dropdown-item" href="makeup-kit.html#top">wedding kits</a>
+                                    <a class="dropdown-item" href="products.html#top">upcoming products</a>
                                     <!-- <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">BLOG 3</a> -->
+                            <a class="dropdown-item" href="#">BLOG 3</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    services
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="services.html#top">nail</a>
+                                    <a class="dropdown-item" href="services.html#top">hair</a>
+                                    <a class="dropdown-item" href="services.html#top">skin</a>
+                                    <a class="dropdown-item" href="services.html#top">make-up</a>
+                                    <!-- <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">BLOG 3</a> -->
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="feedback.html#top">FEEDBACK</a>
+                                <a class="nav-link" href="feedback.html#top">feedback</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html#top">ABOUT US</a>
+                                <a class="nav-link" href="about.html#top">about us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html#top">CONTACT US</a>
+                                <a class="nav-link" href="contact.html#top">contact us</a>
                             </li>
                         </ul>
                         <form class="form-inline search-btn">
@@ -168,7 +183,7 @@
         </div>
 
     </footer>
-    <span class="page-mark fixed-bottom">
+    <span class="page-mark fixed-bottom d-none">
         <a href="#top">
             <i class="fa fa-arrow-up" aria-hidden="true"></i>
         </a>
@@ -180,9 +195,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/google-map.js"></script>
     <script src="js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
+    <script src="js/index.js"></script>
     <script src="js/form.js"></script>
     
 </body>
