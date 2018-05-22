@@ -431,68 +431,7 @@ ul.dropdown-menu.show {
     float: left;
     margin-left: 6px;
 }
-/* Dành cho điện thoại */
-@media all and (max-width:375px) {
-    .list-product, .list-nextPage, .list-text, .list-text-short, .list-like {
-        display: none;
-    }
 
-    .main-mobie {
-        display: block;
-    }
-
-    .list-nextPage-next {
-        /* width: 2px;
-       height: 15px; */
-        margin-bottom: 20px;
-    }
-
-    .btn.btn-primary {
-        width: 35px;
-        height: 12px;
-        font-size: 5px;
-        line-height: 0px;
-        text-align: center;
-    }
-
-    .list-product-box-text-many {
-        font-size: 5px;
-        width: 100%;
-        height: 30%;
-        background: white;
-    }
-
-    .list-product-box-text-info {
-        font-size: 3px;
-        text-align: center;
-    }
-}
-
-
-/* Dành cho máy tính bảng chiều ngang */
-@media all and (max-width: 1024px) {
-    .list-like {
-        width: 768px !important;
-    }
-
-    .list-product {
-        width: 768px !important;
-    }
-
-    .list-nextPage {
-        width: 768px !important;
-    }
-
-    .list-text {
-        width: 768px !important;
-    }
-
-    .dropbtn {
-        padding: 5px;
-    }
-}
-
-/* Style the active class, and buttons on mouse-over */
 
 
 .jssorl-009-spin img {

@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/form.css">
- 
+
 </head>
 
 <body>
@@ -26,39 +26,6 @@
     -->
     <header>
         <div class="background-header fixed-top"></div>
-        <!--
-            =================== form ===================
-            -->
-
-        <section class="main-box">
-            <aside class="main-box-form">
-                <section class="main-box-form-top">
-                    <p class="main-box-form-thank"> Thank you for your contribute!</p>
-                </section>
-                <form id="form" action="" enctype="multipart/form-data">
-                    <aside >
-                        <span class="main-box-span">Name:</span> <span id="erroName"> *</span>
-                        <br>
-                        <input type="text" id="name" autofocus class="main-box-input">
-                        <br>
-                        <br>
-                        <span class="main-box-span">Email:</span> <span id="erroEmail"> *</span>
-                        <br>
-                        <input type="text" id="email" class="main-box-input">
-                        <br>
-                        <span class="main-box-span">Your comment:</span> <span id="erroComment"> *</span>
-                        <br> 
-                        <textarea id="comment" class="main-box-input" rows="4" placeholder="Write something ..."></textarea>
-                        <input type="submit" class="main-box-form-left-button" value="Submit" />
-                        <a href="index.html" class="cancel-button" />Hủy</a>
-                    </aside>
-                </form>
-            </aside>
-        </section>
-        
-        <!--
-        =================== end form===================
-        -->
         <nav class="navigation navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container-fluid">
                 <div class="navbar-brand">
@@ -72,7 +39,7 @@
                             aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse toggler-menu">
+                    <div class="collapse navbar-collapse toggler-menu" style="height:50px">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
                                 <a class="nav-link" href="index.html#top">
@@ -95,7 +62,7 @@
                                     <a class="dropdown-item" href="makeup-kit.html#top">wedding kits</a>
                                     <a class="dropdown-item" href="products.html#top">upcoming products</a>
                                     <!-- <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">BLOG 3</a> -->
+                                    <a class="dropdown-item" href="#">BLOG 3</a> -->
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
@@ -108,7 +75,7 @@
                                     <a class="dropdown-item" href="services.html#top">skin</a>
                                     <a class="dropdown-item" href="services.html#top">make-up</a>
                                     <!-- <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">BLOG 3</a> -->
+                                    <a class="dropdown-item" href="#">BLOG 3</a> -->
                                 </div>
                             </li>
                             <li class="nav-item">
@@ -146,10 +113,40 @@
 
     </header>
     <!--end of header-->
-    <aside class="main-content">
-        <img src="images/background.jpg" width="100%" height="100%">
+    <section class="main-content " style="background-image:url(images/background.jpg); background-size:cover;">
+        <!--
+        =================== form ===================
+        -->
 
-    </aside>
+        <section class="row ">
+            <div class="col-md-6 offset-md-3 main-box">
+                <div class="">
+                    <p class="main-box-form-thank"> Thank you for your contribute!</p>
+                </div>
+                <form class="" id="form" action="" enctype="multipart/form-data" method="POST">
+                    <div class="form-group main-box-span">
+                        <label for="name">Name:</label><span id="erroName"> *</span>
+                        <input type="text" id="name" class="form-control main-box-input" value="" autofocus>
+                    </div>
+                    <div class="form-group main-box-span">
+                        <label for="email">Email:</label><span id="erroEmail"> *</span>
+                        <input type="text" id="email" class="form-control main-box-input" value="" autofocus>
+                    </div>
+                    <div class="form-group main-box-span">
+                        <label for="comment">Your comment:</label><span id="erroComment"> *</span>
+                        <textarea id="comment" class="form-control main-box-input" rows="4" placeholder="Write something ..."></textarea>
+                    </div>
+                    <div class="form-group main-box-span">
+                        <a href="index.html" class="cancel-button">Cancel</a>
+                        <input type="submit" class="main-box-form-left-button" value="Send" />
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!--
+        =================== end form===================
+        -->
     </section>
     <!--
     =================== footer ===================
@@ -197,7 +194,7 @@
     <script src="js/wow.min.js"></script>
     <script src="js/index.js"></script>
     <script src="js/form.js"></script>
-    
+
 </body>
 
 </html>
