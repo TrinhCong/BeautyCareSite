@@ -20,7 +20,7 @@
 
 </head>
 
-<body>
+<body  >
     <!--
     =================== Header ===================
     -->
@@ -32,7 +32,7 @@
                     <a href="#">
                         <img src="images/logo.png" width="160" height="40">
                     </a>
-                    <span>Beauty Care</span>
+                    <span class="small-brand">Beauty Care</span>
                 </div>
                 <div class="float-right">
                     <button class="navbar-toggler toggler-btn" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -113,30 +113,28 @@
 
     </header>
     <!--end of header-->
-    <section class="main-content " style="background-image:url(images/background.jpg); background-size:cover;">
+    <section class="main-content " style="background-image:url(images/background.jpg); background-size:cover; padding-top:70px !important; padding-bottom:20px;">
         <!--
         =================== form ===================
         -->
 
-        <section class="row ">
-            <div class="col-md-6 offset-md-3 main-box">
-                <div class="">
-                    <p class="main-box-form-thank"> Thank you for your contribute!</p>
-                </div>
+        <section class="col-12" >
+            <div class="col-md-6 offset-md-3 col-sm-10 offset-sm-1 main-box">
+                <p class="main-box-form-thank" > Thank you for your contribute!</p>
                 <form class="" id="form" action="" enctype="multipart/form-data" method="POST">
-                    <div class="form-group main-box-span">
+                    <div class="form-group ">
                         <label for="name">Name:</label><span id="erroName"> *</span>
                         <input type="text" id="name" class="form-control main-box-input" value="" autofocus>
                     </div>
-                    <div class="form-group main-box-span">
+                    <div class="form-group ">
                         <label for="email">Email:</label><span id="erroEmail"> *</span>
                         <input type="text" id="email" class="form-control main-box-input" value="" autofocus>
                     </div>
-                    <div class="form-group main-box-span">
+                    <div class="form-group ">
                         <label for="comment">Your comment:</label><span id="erroComment"> *</span>
                         <textarea id="comment" class="form-control main-box-input" rows="4" placeholder="Write something ..."></textarea>
                     </div>
-                    <div class="form-group main-box-span">
+                    <div class="form-group ">
                         <a href="index.html" class="cancel-button">Cancel</a>
                         <input type="submit" class="main-box-form-left-button" value="Send" />
                     </div>
@@ -157,7 +155,7 @@
             <div class="row foot-logo">
                 <img src="images/logo.png" width="170" height="30">
                 <span>|</span>
-                <span>Beauty Care</span>
+                <span class="small-brand">Beauty Care</span>
             </div>
             <div class="row">
                 <div class="col-lg-6 float-left copy-right">

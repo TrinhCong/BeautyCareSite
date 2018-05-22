@@ -381,7 +381,13 @@ input {
         footer .social-icon a:hover {
             color: #f97a90;
         }
-
+@media(max-width:370px)
+{
+    .small-brand
+    {
+        display:none;
+    }
+}
 
     .page-mark {
         width: 50px;

@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/form.css">
- 
+
 </head>
 
 <body>
@@ -32,7 +32,7 @@
                     <a href="#">
                         <img src="images/logo.png" width="160" height="40">
                     </a>
-                    <span>Beauty Care</span>
+                    <span class="small-brand">Beauty Care</span>
                 </div>
                 <div class="float-right">
                     <button class="navbar-toggler toggler-btn" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -62,7 +62,7 @@
                                     <a class="dropdown-item" href="makeup-kit.html#top">wedding kits</a>
                                     <a class="dropdown-item" href="products.html#top">upcoming products</a>
                                     <!-- <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">BLOG 3</a> -->
+                                    <a class="dropdown-item" href="#">BLOG 3</a> -->
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
@@ -75,7 +75,7 @@
                                     <a class="dropdown-item" href="services.html#top">skin</a>
                                     <a class="dropdown-item" href="services.html#top">make-up</a>
                                     <!-- <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">BLOG 3</a> -->
+                                    <a class="dropdown-item" href="#">BLOG 3</a> -->
                                 </div>
                             </li>
                             <li class="nav-item">
@@ -113,58 +113,56 @@
 
     </header>
     <!--end of header-->
-    <section class="main-content " style="background-image:url(images/background.jpg); background-size:cover;">
+    <section class="main-content " style="background-image:url(images/background.jpg); background-size:cover; padding-top:70px !important; padding-bottom:20px;">
         <!--
         =================== form ===================
         -->
 
-        <section class="row ">
-            <div class="col-md-6 offset-md-3 main-box">
-                <div class="">
-                    <p class="main-box-form-thank"> Thank you for your order, we will delivery soonest</p>
-                </div>
+        <section class="col-12">
+            <div class="col-md-6 offset-md-3 col-sm-10 offset-sm-1 main-box">
+                <p class="main-box-form-thank"> Thank you for your order, we will delivery soonest</p>
                 <form class="" id="form" action="" enctype="multipart/form-data" method="POST">
                     <div class="col-8 float-left main-box-form-left">
-                        <div class="form-group main-box-span">
+                        <div class="form-group ">
                             <label for="name">Name:</label><span id="erroName"> *</span>
                             <input type="text" id="name" class="form-control main-box-input" value="" autofocus>
                         </div>
-                        <div class="form-group main-box-span">
+                        <div class="form-group ">
                             <label for="telephone">Telephone:</label><span id="erroTelephone"> *</span>
                             <input type="text" id="telephone" class="form-control main-box-input" value="">
                         </div>
-                        <div class="form-group main-box-span">
+                        <div class="form-group ">
                             <label for="email">Email:</label><span id="erroEmail"> *</span>
                             <input type="text" id="email" class="form-control main-box-input" value="" autofocus>
                         </div>
-                        <div class="form-group main-box-span">
+                        <div class="form-group ">
                             <label for="address">Address:</label><span id="erroAddress"> *</span>
                             <input type="text" id="address" class="form-control main-box-input" value="" autofocus>
                         </div>
-                        <div class="form-group main-box-span">
+                        <div class="form-group ">
                             <label for="code">Discount code:</label><span id="erroCode"> *</span>
                             <input type="text" id="code" class="form-control main-box-input" value="" autofocus>
                         </div>
-                        <div class="form-group main-box-span">
+                        <div class="form-group ">
                             <a href="index.html" class="cancel-button">Cancel</a>
                             <input type="submit" class="main-box-form-left-button" value="Pay" />
                         </div>
-                        
+
                     </div>
                     <div class="col-4 float-right main-box-form-right">
-                        <span class="main-box-span">Billing:</span> <span id="erroPay"> *</span>
+                        <span class="">Billing:</span> <span id="erroPay"> *</span>
                         <br>
                         <input type="radio" class="main-box-radio" name="pick" id="hide" value="">
-                        <span class="main-box-span">Ship COD</span>
+                        <span class="">Ship COD</span>
                         <br>
                         <input type="radio" class="main-box-radio" name="pick" id="show" value="">
-                        <span class="main-box-span">ATM</span>
+                        <span class="">Transfer</span>
                         <aside class="main-box-atm">
-                            <div class="form-group main-box-span">
+                            <div class="form-group ">
                                 <label for="card">The name of the cardholder:</label><span id="erroCard" class="erroCard"> * </span>
                                 <input type="text" id="card" class="form-control main-box-input" value="" autofocus>
                             </div>
-                            <div class="form-group main-box-span">
+                            <div class="form-group ">
                                 <label for="number">Card number:</label><span id="erroNumber" class="erroNumber"> * </span>
                                 <input type="text" id="number" class="form-control main-box-input" value="" autofocus>
                             </div>
@@ -176,8 +174,8 @@
         </section>
 
         <!--
-    =================== end form===================
-    -->
+        =================== end form===================
+        -->
     </section>
     <!--
     =================== footer ===================
@@ -188,7 +186,7 @@
             <div class="row foot-logo">
                 <img src="images/logo.png" width="170" height="30">
                 <span>|</span>
-                <span>Beauty Care</span>
+                <span class="small-brand">Beauty Care</span>
             </div>
             <div class="row">
                 <div class="col-lg-6 float-left copy-right">
@@ -225,7 +223,7 @@
     <script src="js/wow.min.js"></script>
     <script src="js/index.js"></script>
     <script src="js/form.js"></script>
-    
+
 </body>
 
 </html>
